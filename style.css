@@ -1,0 +1,147 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #f5f5f5; */
+    background-color: rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    
+}
+
+.container{
+    background: linear-gradient(to bottom right, #3de3c1, #3f6edc);
+    height: 455px;
+    width: 320px;
+    border-radius: 12px;
+    padding-top: 30px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    
+}
+.navbar input{
+    border: none;
+    border-radius: 19px;
+    padding-left: 17px;
+    height: 40px;
+    width: 12.5rem;
+    outline: none;
+    
+}
+.navbar input:hover{
+    transform: scale(1.01) rotate(0deg);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.2);
+}
+.navbar button{
+    border: none;
+    border-radius: 19px;
+    height: 40px;
+    width: 3rem;
+}
+.navbar button:hover{
+    transform: scale(1.03) rotate(0deg);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.2);
+}
+.navbar button i{
+    font-size: 1.1rem;
+}
+
+.cityName{
+    margin-top: 15px;
+    font-size: 2rem;
+}
+
+
+#symbol img{
+    height: 20vh;
+}
+
+#deg{
+    font-size: 2.5rem;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.test1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.test1 img{
+    height: 20px;
+    width: 30px;
+    padding-bottom: 15px;
+}
+
+#per1{
+    font-size: 18px;
+}
+#humtext{
+    font-size: 13px;
+}
+.test2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.test2 img{
+    height: 20px;
+    width: 30px;
+    padding-bottom: 15px;
+    padding-right: 5px;
+}
+
+#per2{
+    font-size: 18px;
+}
+#windtext{
+    font-size: 13px;
+}
+
+
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+.navbar button {
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.navbar button:hover {
+    box-shadow: 0 0 10px #00d4ff;
+    background-color: #00d4ff;
+    color: white;
+}
+
+@media (max-width: 400px) {
+    .container {
+        width: 90%;
+        height:auto;
+    }
+    .navbar input {
+        width: 60%;
+    }
+}

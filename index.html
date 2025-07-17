@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <input type="text" placeholder="Enter city" id="search" >
+            <button id="btn"><i class="fa-solid fa-magnifying-glass-location"></i></button>
+        </div>
+        <p class="cityName">City</p>
+        <div class="content">
+            <div id="symbol">
+                <img id="symbolimg" src="clear.png" alt="symbol">
+            </div>
+            <p id="deg">0&deg;C</p>
+            <p id="desc">Weather description</p>
+        </div>
+        <div class="footer">
+            <div class="test1">
+                <img src="humidity.png" alt="humidity">
+                <div class="humidity">
+                    <p id="per1">0%</p>
+                    <p id="humtext">Humidity</p>
+                </div>
+            </div>
+            <div class="test2">
+                <img src="wind.png" alt="wind">
+                <div class="wind">
+                    <p id="per2">0km/h</p>
+                    <p id="windtext">Wind Speed</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
