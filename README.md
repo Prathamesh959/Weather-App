@@ -23,7 +23,6 @@ It fetches real-time weather data using the **OpenWeatherMap API** based on the 
 
 ## 🌐 Live Demo
 
-[Click here to try the app](👇)  
 https://prathamesh959.github.io/Weather-App/
 
 ## 🛠️ Tech Stack
